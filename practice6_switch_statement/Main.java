@@ -1,10 +1,12 @@
 // The switch expression is evaluated once 
 // The value of the expression is compared with the value of each case
-// If there is a match the assosited block of code is executed  
+// If there is a match the assosited block of code is executed   
+// When a case match is found Java breaks out of the switch block, with the help of break keyword
+
 
 public class Main { 
     public static void main(String[] args) { 
-        int score = 5; 
+        int score = 5;
         switch (score) { 
             case 1: 
             System.out.println("Mathematics");  
@@ -26,7 +28,7 @@ public class Main {
             break; 
             case 7: 
             System.out.println("History"); 
-            break;
+            break;  
         }
     }
 }
