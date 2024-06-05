@@ -13,8 +13,9 @@ public class Main {
         System.out.println("Index 2: " + x);
         
         // Change an array element
-        cars[1] = "BMW"; 
-        System.out.println("Index 1 changed from Ford to BMW: " + cars[1]);  
+        cars[2] = "BMW"; 
+        System.out.println("Index 2 changed from Range to BMW: " + cars[2]);  
+        System.out.println("Index 2: " + x); // Check on this --- value remains Range instead of changing to BMW
  
         // To find how many elements an array has use the length property 
         System.out.println("Total number of elements: " + cars.length); 
