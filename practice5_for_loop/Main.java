@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) { 
         
        // int score = 10; 
-        for(int score = 10; score <= 30; score = score + 5) { 
+        for(int score = 10; score <= 30; score += 5) { 
             System.out.println("This is your score: " + score); 
         }
     }
