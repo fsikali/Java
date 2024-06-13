@@ -13,6 +13,31 @@ public class Main {
         System.out.println("Another car name: " + fcar); 
 
         System.out.println("My age: " + age); 
-        System.out.println("Another age: " + age2);
+        System.out.println("Another age: " + age2); 
+
+        string_literal(); 
+        another_string(); 
+    } 
+
+    static void string_literal() { 
+        String a = "book"; 
+
+        String b = a; 
+
+        System.out.println("This is my: " + a); 
+        System.out.println("This is my: " + b);
+    } 
+
+    static void another_string() {  
+
+        // check for bugs in this code 
+
+        String c = "laptop";  
+
+        //System.out.println("My " + c);
+
+        c = "headphones"; 
+
+        System.out.println("My " + c); 
     }
 }
