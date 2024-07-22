@@ -10,12 +10,17 @@ public class Main {
     String model = "Mercedes Benz";
 
     public static void main(String [] args) { 
-        Main mercedesBenz = new Main();  
+       // Main mercedesBenz = new Main();  
         Main mercedesBenz  = new Main();
         System.out.println("The amount is " + mercedesBenz.amount); 
         System.out.println("I have a " + mercedesBenz.model);
     }
 } 
+
+// Creating static and public method
+// Calling them from different locations 
+// Creating attributes from different locations  
+// Find if the object can only be created inside the main method
 
 
   
