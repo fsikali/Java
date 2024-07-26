@@ -1,4 +1,7 @@
 // Constructor Parameters
+// public keyword is an access modifier, it is used to set the access level
+// for classes, attributes, methods and constructors
+
 
 public class Main { 
     int x; 
