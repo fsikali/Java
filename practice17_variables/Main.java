@@ -17,4 +17,9 @@ public class Main {
            System.out.println("The value of x is: " + x);
 
     }
-}
+} 
+ 
+  
+    
+     
+     
