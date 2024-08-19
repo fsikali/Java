@@ -8,4 +8,6 @@ public class Main {
             System.out.println("This is your score: " + score); 
         }
     }
-}    
+}     
+
+
