@@ -12,7 +12,7 @@ public class Main {
 
     static int calculations(int score_a, int score_b) {  
 
-        return (score_a + score_b);  
+        return (score_a * score_b);
     }
 }
 
