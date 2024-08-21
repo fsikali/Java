@@ -16,7 +16,7 @@ public class Main {
             case 4:
             System.out.println("Physics"); 
             default: 
-            System.out.println("Default: Biology");
+            System.out.println("Biology");
         }
     }
 }

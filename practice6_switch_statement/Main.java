@@ -6,29 +6,17 @@
 
 public class Main { 
     public static void main(String[] args) { 
-        int score = 5;
-        switch (score) { 
+        int score = 2; 
+        switch(score) { 
             case 1: 
-            System.out.println("Mathematics");  
-            break; 
+            System.out.println("John"); 
+            break;
             case 2: 
-            System.out.println("English"); 
+            System.out.println("Peter"); 
             break; 
             case 3: 
-            System.out.println("Kiswahili"); 
-            break; 
-            case 4: 
-            System.out.println("Chemistry"); 
-            break; 
-            case 5: 
-            System.out.println("Physics"); 
+            System.out.println("David"); 
             break;
-            case 6: 
-            System.out.println("Geography");
-            break; 
-            case 7: 
-            System.out.println("History"); 
-            break;  
         }
     }
 }
