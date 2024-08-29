@@ -7,6 +7,7 @@ public class Main {
 
         int x = score[3]; 
         System.out.println("This is your score: " + score[3]);
+        System.out.println("This is the value of: " + x);
 
         score[1] = 95; 
         System.out.println("This is your new score from 75 to: " + score[1]); 

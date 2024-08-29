@@ -10,7 +10,7 @@ public class Main {
         int age2 = age;
 
         System.out.println("Car name: " + fcar);  
-        System.out.println("Another car name: " + fcar); 
+        System.out.println("Another car name: " + fcar1); 
 
         System.out.println("My age: " + age); 
         System.out.println("Another age: " + age2); 
