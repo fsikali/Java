@@ -39,10 +39,3 @@ class Second {
 
 
 
-
-
-
-
-
-
-
