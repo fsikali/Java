@@ -34,8 +34,3 @@ class Second {
         person.drive();
     }
 }
-
-
-
-
-
