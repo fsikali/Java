@@ -3,4 +3,5 @@ public class Main {
         Person student = new Person(); 
         student.studentGrade();
     }
-}
+} 
+
