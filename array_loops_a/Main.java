@@ -12,10 +12,12 @@ This is the syntax;
 
 public class Main { 
     public static void main(String[] args) { 
-        String[] cars = {"BMW", "Benz", "Ford", "Volkwagon"};
+        String[] cars = {"BMW", "Benz", "Ford", "Volkwagon", "Toyota"};
         for (String i : cars) { 
             System.out.println("This is: " + i);
         }
     }
 }
+
+
 

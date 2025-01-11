@@ -18,3 +18,6 @@ public class Main {
 } 
 
 // Check more on break keyword e.g break score * 2 if it is implemented in java
+
+
+

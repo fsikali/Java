@@ -4,14 +4,16 @@
 
 
 public class Main { 
-    int x; 
+    int passengerAge; 
+    String passengerName;
 
     public Main(int age) { 
-        x = age;
+        passengerAge = age;
+        passengerName = "Flemming";
     } 
 
     public static void main(String[] args) { 
         Main person = new Main(10); 
-        System.out.println("I am " + person.x + " years old");
+        System.out.println("The passenger is name is " + person.passengerName + " and he is " + person.passengerAge + " years old");
     }
 }
