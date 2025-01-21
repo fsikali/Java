@@ -7,12 +7,13 @@ public class Main {
 
         x = 15;
         
-         {  
+        {  
               
            x = x * 2;   
            System.out.println("The value of x is: " + x); 
         } 
 
+       // x = 10;
 
            System.out.println("The value of x is: " + x);
 

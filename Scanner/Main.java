@@ -3,18 +3,23 @@
 // To use the Scanner class, create an object of class and use any of the available methods
 // found in the Scanner class documentation 
 
-import java.util.Scanner; // Import the Scanner class 
+import java.util.Scanner;
 
-class Main { 
+public class Main { 
     public static void main(String[] args) { 
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter username: "); 
+        Scanner car = new Scanner(System.in); // Scanner object
 
-        String userName = myObj.nextLine(); // Read user input
-        System.out.println("Username is: " + userName); // Output user input
+        System.out.println("Enter car name: ");
+        String carname = car.nextLine();  // Reads the user input
+
+        System.out.println("Enter milage: ");
+        String carmilage = car.nextLine();
+
+        System.out.println("The car name is: " + carname);
+        System.out.println("The car milage is " + carmilage);
+
     }
 }
-
 
 
 
