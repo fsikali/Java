@@ -17,3 +17,4 @@ public class Main {
         System.out.println("The passenger is name is " + person.passengerName + " and he is " + person.passengerAge + " years old");
     }
 }
+

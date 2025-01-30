@@ -1,5 +1,5 @@
 // You can modify attributes  
-// If you don't wan the ability to override existing values, declare the 
+// If you don't want the ability to override existing values, declare the 
 // attributes  
 // final keyword is useful when you want a variable to always store the same
 // value like P1(3.1459)
