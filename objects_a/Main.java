@@ -5,13 +5,23 @@
 // This is for : 
 // Better organization of classes
 
-public class Main { 
-    int score = 10;
-} 
+class Team {  
+    public int score; 
+    public int anotherScore; 
+}   
 
-class Team { 
-    public static void main(String [] args) { 
-        Main teamSimba = new Main(); 
-        System.out.println("Team Simba scored: " + teamSimba.score);
+class Simba extends Team { 
+
+    public Simba(int firstScore, int secondScore) {
+         score = firstScore;
+         anotherScore = secondScore;
     }
 }
+
+public class Main { 
+    public static void main(String [] args) { 
+        Simba teamSimba = new Simba(90, 100);   
+        System.out.println("Team Simba scored: " + teamSimba.score + " and " + teamSimba.anotherScore);
+    }
+}
+
