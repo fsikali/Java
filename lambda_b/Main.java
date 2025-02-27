@@ -21,3 +21,4 @@ public class Main {
         numbers.forEach( method );
     }
 }
+
