@@ -25,8 +25,10 @@ public class CreateFile {
     public static void main(String[] args) {
         try { 
           File myObj = new File("filename.txt");
-          if (myObj.createNewFile()) { 
+          File myObj_a = new File("fle.txt");
+          if (myObj.createNewFile() && myObj_a.createNewFile()) { 
             System.out.println("File created: " + myObj.getName());
+            System.out.println("File created: " + myObj_a.getName());
           } else { 
             System.out.println("File already exists.");
           }
